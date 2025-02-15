@@ -1,0 +1,112 @@
+.container {
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+#searchEmail {
+    max-width: 250px; /* You can adjust this if needed */
+}
+
+.d-flex {
+    display: flex;
+    justify-content: flex-start; /* Align the items to the left */
+    gap: 10px; /* Creates space between search bar and add user button */
+}
+
+.add-user-btn {
+    width: auto; /* Auto width so it adjusts based on content */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px; /* Ensures proper space around the text */
+    white-space: nowrap; /* Prevents wrapping of button text */
+}
+
+.add-user-btn i {
+    margin-right: 8px; /* Adds space between the icon and text */
+}
+
+
+.update-user-btn {
+    width: 120px;
+    height: 40px;
+}
+
+.pagination {
+    justify-content: flex-end;
+}
+
+.pagination .page-item {
+    margin: 0 2px;
+}
+
+.pagination .page-link {
+    border: none;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-left {
+    flex: 1;
+    text-align: left;
+}
+
+.pagination-right {
+    flex: 1;
+    text-align: right;
+}
+
+.page-item.disabled .page-link {
+    pointer-events: none;
+}
+
+.modal-footer {
+display: flex; /* Use flexbox for alignment */
+justify-content: flex-end; /* Align button to the right side */
+}
+
+.save-changes-btn {
+width: auto; /* Auto width to fit the button content */
+height: 40px; /* Set the height of the button */
+background-color: #007bff; /* Blue background color */
+color: white; /* White text color */
+border: none; /* Remove border */
+border-radius: 5px; /* Rounded corners */
+font-size: 1rem; /* Text size */
+padding: 0 15px; /* Horizontal padding */
+white-space: nowrap; /* Prevent text wrapping */
+text-align: center; /* Ensure text is centered */
+transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.save-changes-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.save-changes-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light blue focus outline */
+}
